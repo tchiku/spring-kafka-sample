@@ -1,0 +1,6 @@
+spring:
+  kafka:
+    bootstrap-servers:
+      - kafka:29092
+    producer:
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
